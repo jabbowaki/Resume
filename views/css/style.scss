@@ -1,6 +1,7 @@
 /**
  * Less based style sheet.
  * @author Nat Welch
+ * updated by Emily Owaki to fit my needs
  */
 
 $fg:     #333333;
@@ -16,7 +17,7 @@ $border: #E0E0E0;
 body {
   color: $fg;
   line-height: 1.4em;
-  background-color: $bg;
+  background-color: white;
   font-family: serif;
   font-size: 0.9em;
 }
@@ -40,7 +41,7 @@ body {
 }
 
 #resume {
-  width: 800px;
+  width: 700px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
@@ -60,24 +61,37 @@ body {
   h1:first-child {
     margin-top: 30px;
     padding-top: 0.25em;
+    padding-bottom: 0.20em;
     border-top: none;
-    font-size: 200%;
+    font-size: 4em;
   }
 
   h2 {
     font-size: 150%;
     margin-top: 1.5em;
-    border-top: 4px solid $border;
+    border-top: 4px solid #01cbc0;
     padding-top: 0.5em;
   }
 
   h3 {
     margin-top: 1em;
+    font-family: arial;
+  }
+  h4{
+    font-family: arial;
+    margin-bottom: -10px;
   }
 
   p {
      margin: 1em 0;
      line-height: auto;
+     font-size: 1.2em;
+     font-family: arial;
+  }
+
+  p a{
+    font-size: 1.5em;
+    padding-left: .3em;
   }
 
   ul, ol {
@@ -101,12 +115,13 @@ body {
   }
 
   a, a:visited {
-    color: $link;
+    color: gray;
     text-decoration: none;
   }
 
   a:hover {
     text-decoration: underline;
+    color: #01cbc0;
   }
 
   img {
