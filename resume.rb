@@ -17,7 +17,7 @@ configure do
 end
 
 # Render the main page.
-get '/index.html' do
+get '/' do
   rfile = settings.config['file']
   name  = settings.config['name']
   title = "#{name}'s Resume"
@@ -35,9 +35,9 @@ get '/index.html' do
 end
 
 # We do this for our static site rendering.
-get '/' do
-  redirect '/index.html'
-end
+# get '/' do
+#   redirect '/index.html'
+# end
 
 # For the plain text version of our resumes
 get '/resume.txt' do
