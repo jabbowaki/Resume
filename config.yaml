@@ -10,7 +10,7 @@ user_config:
   file: 'resume.md'
 
   # A picture of you. Should be a complete url
-  pic: ''
+  pic: 'https://www.facebook.com/photo.php?fbid=10152577954606911&set=a.431746846910.225755.667786910&type=1&source=11'
 
   # The google analytics key you wish to use.
   gkey: ''
