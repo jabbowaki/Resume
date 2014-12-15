@@ -44,3 +44,9 @@ get '/resume.txt' do
   content_type 'text/plain', :charset => 'utf-8'
   File.read(settings.config['file'])
 end
+
+#Adds pdf version of resume
+
+get '/resume.pdf' do
+  send_file('Owaki_resume.pdf')
+end
