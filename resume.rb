@@ -49,4 +49,3 @@ end
 
 get '/resume.pdf' do
   send_file('Owaki_resume.pdf')
-end
