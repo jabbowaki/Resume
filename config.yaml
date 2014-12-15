@@ -13,7 +13,7 @@ user_config:
   pic: 'https://www.facebook.com/photo.php?fbid=10152577954606911&set=a.431746846910.225755.667786910&type=1&source=11'
 
   # The google analytics key you wish to use.
-  gkey: ''
+  gkey: 'UA-57681502-1'
 
 # For github pages to work, this needs to be the GitHub repository this file is
 # stored in.
